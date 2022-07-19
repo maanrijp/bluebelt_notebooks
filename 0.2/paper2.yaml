@@ -1,0 +1,66 @@
+# font sizes
+xsmall: &xsmall 10
+small: &small 14
+medium: &medium 18
+large: &large 21
+
+# rgb colors
+white: &white "#ffffff"
+light_blue: &light_blue "#3f8dc5"
+blue: &blue "#256fb3"
+dark_blue: &dark_blue "#001146"
+yellow: &yellow "#fcbe1f"
+orange: &orange "#ee5c2b"
+red: &red "#b51133"
+green': &green "#0d7034"
+grey: &grey "#8c94a8"
+light_grey: &light_grey "#b5c6cf"
+dark_grey': &dark_grey "#3f494d"
+black: &black "#0e1221"
+
+effort:
+  quantity:
+    line:
+      color: *black
+      linestyle: "solid"
+      linewidth: 3
+      zorder: 90
+    fill:
+      color: *black
+      #hatch: "////"
+      linestyle: "solid"
+      linewidth: 0.5
+      alpha: 0.3
+      zorder: 50
+  distribution:
+    line:
+      color: *blue
+      linestyle: "solid"
+      linewidth: 3
+      zorder: 89
+    fill:
+      color: *blue
+      #hatch: "\\\\\\\\"
+      linestyle: "solid"
+      linewidth: 0.5
+      alpha: 0.3
+      zorder: 49
+  skills:
+    line:
+      color: *green
+      linestyle: "solid"
+      linewidth: 3
+      zorder: 88
+    fill:
+      color: *green
+      #hatch: "||||"
+      linestyle: "solid"
+      linewidth: 0.5
+      alpha: 0.3
+      zorder: 48
+  qds:
+    line:
+      color: *red
+      linestyle: "solid"
+      linewidth: 3
+      zorder: 100

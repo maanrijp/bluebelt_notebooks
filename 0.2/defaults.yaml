@@ -1,0 +1,19 @@
+# font sizes
+xsmall: 10
+small: 14
+medium: 18
+large: 21
+
+# rgb colors
+white: '#ffffff'
+light_blue: '#3f8dc5'
+blue: '#256fb3'
+dark_blue: '#001146'
+yellow: '#fcbe1f'
+orange: '#ee5c2b'
+red: '#b51133'
+green': '#0d7034'
+grey: '#8c94a8'
+light_grey: '#b5c6cf'
+dark_grey': '#3f494d'
+black: '#0e1221'
